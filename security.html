@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>PHP Conventions</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/monokai-sublime.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand navbar-right hidden-xs" href="https://engineering.linkorb.com">
+                <img src="https://upr.io/7P011d.png" style="width: 340px; float: left; margin-right: 5px;" />
+                            </a>
+            <a class="navbar-brand" href="./">
+                PHP Conventions
+                <small class="hidden-xs hidden-sm">
+                    Styleguide, libraries, etc
+                </small>
+            </a>
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                                                                                                        <a href="./">
+                                                                                                                    Introduction
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                                                                                                        <a href="general.html">
+                                                                                                                    General
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                                                                                                        <a href="directory-structure.html">
+                                                                                                                    Directory structure
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                                                                                                        <a href="filenames.html">
+                                                                                                                    Filenames
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                                                                                                        <a href="style.html">
+                                                                                                                    Style
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                                                                                                        <a href="controllers.html">
+                                                                                                                    Controllers
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                                                                                                        <a href="authentication.html">
+                                                                                                                    Authentication
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                                                                                                        <a href="composer.html">
+                                                                                                                    Composer
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                                                                                                        <a href="license.html">
+                                                                                                                    License
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                                                                                                        <a href="readme-file.html">
+                                                                                                                    README file
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                                                                                                        <a href="routes.html">
+                                                                                                                    Routes
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                                                                                                        <a href="templates.html">
+                                                                                                                    Templates
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                                                                                                        <a href="security.html">
+                                                                                                                    Security
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                                                                                                        <a href="libraries.html">
+                                                                                                                    Libraries
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                   <h2 id="security">Security</h2>
+<p>At LinkORB we often develop applications that are designed to handle confidential data.</p>
+<p>Therefor we expect developers to familiarize themselves with the <a href="https://www.owasp.org/index.php/Security_by_Design_Principles">Security by design</a> principles as described by OWASP.</p>
+<p>Code reviews will be performed on any code that gets checked in, paying special attention to these points.</p>
+<h3 id="other-php-specific-security-resources">Other PHP specific security resources</h3>
+<ul>
+<li><a href="https://secure.php.net/manual/en/security.php">Security page on php.net</a></li>
+<li><a href="https://www.owasp.org/index.php/Security_by_Design_Principles">OWASP Security by design principles</a></li>
+<li><a href="https://www.owasp.org/index.php/PHP_Security_Cheat_Sheet">OWASP PHP Cheat Sheet</a></li>
+<li><a href="https://github.com/paragonie/awesome-appsec">Awesome list appsec</a></li>
+<li><a href="https://github.com/ziadoz/awesome-php#security">Security section in Awesome list PHP</a></li>
+</ul>
+<h3 id="holistic-security">Holistic security</h3>
+<p>Writing secure PHP code is only part of the puzzle. Topic-specific security principles will be applied in all relevant components of a production system. For example:</p>
+<ul>
+<li>Infrastructure security</li>
+<li>Architecture</li>
+<li>Confidential information (Credentials, secrets, etc) handling</li>
+<li>SQL security</li>
+<li>Project management</li>
+<li>Access management</li>
+<li>Team-member background checks</li>
+</ul>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    <a href="https://engineering.linkorb.com">engineering.linkorb.com</a>
+                </p>
+            </div>
+
+                            <a class="github-link" href="https://github.com/linkorb/php-conventions">
+                    <i class="fa fa-github"></i>
+                    Improve this document on github
+                </a>
+            
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>
