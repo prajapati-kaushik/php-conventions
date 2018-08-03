@@ -22,6 +22,8 @@ menu:
             text: Filenames
         style:
             text: Style
+        ci:
+            text: CI
         controllers:
             text: Controllers
         authentication:
