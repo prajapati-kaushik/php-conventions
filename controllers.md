@@ -49,5 +49,3 @@ Study more detail: https://symfony.com/doc/current/contributing/code/standards.h
     - Service file  Src/Service/EventService
     - Entity file   Src/Entity/UserEntity
     - Repository file Src/Repository/UserRepositroy.
-
-
