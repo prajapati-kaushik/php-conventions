@@ -2,7 +2,7 @@
 
 We're using [GrumPHP](https://github.com/phpro/grumphp) to automatically check for code-quality.
 
-####  Symfony 4 Install and use GrumPHP
+#### GrumPHP  Symfony 4 Install and use
 
 1. Installl packages under require-dev section in you composer.json file. With GrupmPHP checking thats.
 
