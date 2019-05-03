@@ -5,7 +5,7 @@
 * Don't put too many controller functions in 1 class. Split them by resource if the class becomes too big.
 
 
->> These Symfony coding standards are based on the PSR-1, PSR-2 and PSR-4 standards, so you may already know most of them.
+**These Symfony coding standards are based on the PSR-1, PSR-2 and PSR-4 standards, so you may already know most of them.**
 
 Study more detail: https://symfony.com/doc/current/contributing/code/standards.html#naming-conventions
 
