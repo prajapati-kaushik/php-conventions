@@ -11,11 +11,12 @@ The `composer.json` file should also refer to the MIT license using this snippet
 ```
 "license": "MIT"
 ```
+
 * development/testing/debug related packages add under `require-dev` section.
 
 
 ### Provide details in composer.json file
-    modify details as per you project. Like Name, description and homepage link.
+   Modify details as per you project. Like Name, description and homepage link.
 
 ```json
     "name": "linkorb/xxx",
