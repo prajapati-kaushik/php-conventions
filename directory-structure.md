@@ -19,3 +19,27 @@ The root of your project should include a `composer.json` file. All dependency m
     Other configuration can go in `config/` too if needed.
 * `examples/`: Any example PHP code or example data files (xml, json, etc)
 * For Silex apps, put the application code in src/Application.php (extends Silex\Application)
+
+
+### Symfony 4 Project Directory structure
+
+your-project/
+ 1. ├─ assets/
+ 2. ├─ bin/
+ 3. │  └─ console
+ 4. ├─ config/
+ 5. ├─ public/
+ 6. │  └─ index.php
+ 7. ├─ src/
+ 8. │  └─ ...
+ 9. ├─ templates/
+10. ├─ tests/
+11. ├─ translations/
+12. ├─ var/
+13. │  ├─ cache/
+14. │  ├─ log/
+15. │  └─ ...
+16. └─ vendor/
+
+
+* `src/`: All PHP code goes here. like controller, repostiory, entity, eventListner, service, Util.
