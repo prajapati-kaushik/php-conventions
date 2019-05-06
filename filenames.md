@@ -7,3 +7,12 @@
 * All “interface” files should be postfixed with `Interface`. For example: `Acme/ProjectName/DemoInterface`
 * All “repository” files should be in a directory called `Repository` (directly in `src/` or in a sub-directory where applicable). And be postfixed with `Repository`. For example:
 `Acme/ProjectName/Repository/PdoUserRepository`
+
+
+**Symfony coding standards are based on the PSR-1, PSR-2 and PSR-4 standards, so you may already know most of them.**
+
+Study more detail: https://symfony.com/doc/current/contributing/code/standards.html#naming-conventions
+
+
+* Naming convention read:
+[controllers.md]( https://github.com/kaushikindianic/php-conventions/blob/master/controllers.md)
