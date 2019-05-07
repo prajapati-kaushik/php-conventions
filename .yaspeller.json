@@ -1,0 +1,48 @@
+[
+  // file extensions
+  "yaml", "yml", "md",
+
+  // domain extensions
+  "com", "io",
+
+  // external projects
+  "NPM",
+
+  // company names
+  "LinkORB", "linkorb",
+
+  // frameworks
+  "Symfony", "Silex", "symfony",
+
+  // services
+  "github",
+
+  // internal project names
+  "userbase", "networq",
+
+  // development words
+  "CircleCI", "GrumPHP", "grumphp", "CI", "crontab",
+  "Dockerfile", "Dockerfiles", "Dockerhub",
+
+  "CodeSniffer", "JsonLint", "PhpCpd", "Phan", "PHPLint", "PhpMd", "PHPMND",
+  "PHPStan", "PHPUnit", "PhpVersion", "XmlLint", "YamlLint",
+
+  // modified development words
+  "StudlyCaps", "camelCase",
+ 
+  // filenames
+  "gitignore", "src", "utils",
+
+  // packages
+  "phpro", "phpunit", "ropenscilabs", "phpstan", "squizlabs",
+  "reun", "dev", "phan", "phpcs", "appsec",
+
+  // developer abbreviations
+  "PSR", "ORM", "JWT",
+
+  // words
+  "transactional", "templating",
+
+  // organisations
+  "OWASP"
+]

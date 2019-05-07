@@ -11,10 +11,10 @@ Always provide a README.md in the root of your project
 ### Include detailed instructions:
     
 * How to downloading the code (`git clone` command)
-* How to download/install any dependencies (composer, npm, bower, etc)
+* How to download/install any dependencies (Composer, NPM, Bower, etc.)
 * How to initialize database schema (if applicable)
 * How to copying any `.dist` files to real files
-* How to configure parameter files, environment variabels, etc.
+* How to configure parameter files, environment variables, etc.
 * How to start a server for development (using integrated PHP web-server)
 
 ### Other requirements:
@@ -24,6 +24,6 @@ Always provide a README.md in the root of your project
 
 ### LICENSE file
 
-Usually all projects start as private repositories. A private repository does not need a `LICENSE` file, it is always concidered proprietary.
+Usually all projects start as private repositories. A private repository does not need a `LICENSE` file, it is always considered proprietary.
 
 If you work on a public repository, by convention it will follow the MIT license, and it should include a copy of this file in your repository: https://github.com/linkorb/template-php/blob/master/LICENSE

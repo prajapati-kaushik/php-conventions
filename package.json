@@ -1,0 +1,20 @@
+{
+  "name": "php-conventions",
+  "version": "0.0.1",
+  "description": "PHP Coding conventions ",
+  "main": "doc",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "yaspeller": "yaspeller *.md --dictionary .yaspeller.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linkorb/php-conventions.git"
+  },
+  "homepage": "https://github.com/linkorb/php-conventions#readme",
+  "dependencies": {
+    "yaspeller": "^5.0.1"
+  }
+}

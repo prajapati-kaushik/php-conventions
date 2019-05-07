@@ -1,0 +1,29 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.9.1
+
+    working_directory: ~/php-conventions
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          - v1-dependencies-
+
+      - run:
+        <<: *install_composer
+
+      - run: npm install
+      - run:
+          name: Run spellchecker
+          command: npm run yaspeller
+
+      - save_cache:
+          paths:
+            - ./vendor
+          key: v1-dependencies-{{ checksum "package.json" }}

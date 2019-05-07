@@ -1,4 +1,3 @@
-
 ### Style
 
 * All database access uses the "repository" pattern.

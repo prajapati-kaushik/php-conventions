@@ -41,5 +41,4 @@ your-project/
 15. │  └─ ...
 16. └─ vendor/
 
-
-* `src/`: All PHP code goes here. like controller, repostiory, entity, eventListner, service, Util.
+* `src/`: All PHP code goes here. like controllers, repositories, entities, event listeners, services, utils.
