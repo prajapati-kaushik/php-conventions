@@ -15,9 +15,6 @@ jobs:
           - v1-dependencies-{{ checksum "package.json" }}
           - v1-dependencies-
 
-      - run:
-        <<: *install_composer
-
       - run: npm install
       - run:
           name: Run spellchecker
