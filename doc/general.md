@@ -27,3 +27,7 @@ Always provide a README.md in the root of your project
 Usually all projects start as private repositories. A private repository does not need a `LICENSE` file, it is always considered proprietary.
 
 If you work on a public repository, by convention it will follow the MIT license, and it should include a copy of this file in your repository: https://github.com/linkorb/template-php/blob/master/LICENSE
+
+## Test coverage
+* Any new code SHOULD be covered by unit tests. Ideally also should be covered changed code without tests.
+* Any PR SHOULD NOT have failed tests

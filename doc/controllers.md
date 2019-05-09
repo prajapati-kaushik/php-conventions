@@ -3,6 +3,7 @@
 * Never use `exit`, `var_dump`, `echo`, `die` in controllers. Always return a `Response` object.
 * Keep controller code small. Any functionality should be implemented in Repositories, Models or other classes.
 * Don't put too many controller functions in 1 class. Split them by resource if the class becomes too big.
+* Controllers SHOULD NOT have any either protected/private methods or public methods that are not actions
 
 **These Symfony coding standards are based on the PSR-1, PSR-2 and PSR-4 standards, so you may already know most of them.**
 
