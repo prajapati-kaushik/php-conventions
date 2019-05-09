@@ -7,7 +7,7 @@
     "doc": "doc"
   },
   "scripts": {
-    "yaspeller": "yaspeller *.md --dictionary .yaspeller.json"
+    "yaspeller": "yaspeller doc/*.md --dictionary .yaspeller.json"
   },
   "repository": {
     "type": "git",

@@ -35,13 +35,14 @@
 
   // packages
   "phpro", "phpunit", "ropenscilabs", "phpstan", "squizlabs",
-  "reun", "dev", "phan", "phpcs", "appsec",
+  "reun", "dev", "phan", "phpcs", "appsec", "auth",
 
   // developer abbreviations
   "PSR", "ORM", "JWT",
 
   // words
   "transactional", "templating",
+  "versioning",
 
   // organisations
   "OWASP"
