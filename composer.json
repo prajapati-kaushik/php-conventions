@@ -1,0 +1,26 @@
+{
+    "name": "linkorb/php-conventions",
+    "type": "website",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Stephan Meijer",
+            "email": "me@stephanmeijer.com"
+        },
+        {
+            "name": "Rostyslav Proskuriakov",
+            "email": "rostyslav@messagebird.com"
+        },
+        {
+            "name": "Kaushik Prajapati"
+        },
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "couscous/couscous": "^1.7"
+    }
+}
