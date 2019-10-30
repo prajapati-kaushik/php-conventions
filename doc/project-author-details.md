@@ -22,7 +22,7 @@ Composer.json file
         {
             "name": "kaushik prajapati",
             "email": "prajapatikaushik@gmail.com",
-            "htmepage": "https://github.com/kaushikindianic",
+            "homepage": "https://github.com/kaushikindianic",
             "role": "Developer"
         }
     ],
